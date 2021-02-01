@@ -1,144 +1,505 @@
 {
-    "users" : [
-        {
-            "id": 1,
-            "nama": "Wakhyu Novi S A",
-            "alamat": "Bumiayu",
-            "umur": 22,
-            "nohp": "085672563785"
-          },
-          {
-            "id": 2,
-            "nama": "Florensky Gabriel Irawan",
-            "alamat": "Jatilawang",
-            "umur": 23,
-            "nohp": "085290381012"
-          },
-          {
-            "id": 3,
-            "nama": "Ghuyub Catlea Azalea",
-            "alamat": "Bumiayu",
-            "umur": 22,
-            "nohp": "08292892022"
-          },
-          {
-            "id": 4,
-            "nama": "Sabrina Uhtika Putri",
-            "alamat": "Jatilawang",
-            "umur": 23,
-            "nohp": "082928567907"
-          },
-          {
-            "id": 5,
-            "nama": "Deby Nofalia Fardiansari",
-            "alamat": "Jakarta",
-            "umur": 22,
-            "nohp": "082923092032"
-          },
-          {
-            "id": 6,
-            "nama": "Budiman",
-            "alamat": "Kuningan",
-            "umur": 26,
-            "nohp": "087928839322"
-          },
-          {
-            "id": 7,
-            "nama": "Muhamad Darwin",
-            "alamat": "Banyumas",
-            "umur": 28,
-            "nohp": "083048520220"
-          },
-          {
-            "id": 8,
-            "nama": "Ecan Kurniawan",
-            "alamat": "Cibinong",
-            "umur": 25,
-            "nohp": "089928910281"
-          },
-          {
-            "id": 9,
-            "nama": "Calvin Yon",
-            "alamat": "Bogor",
-            "umur": 35,
-            "nohp": "087762890292"
-          },
-          {
-            "id": 10,
-            "nama": "Arif",
-            "alamat": "Yogyakarta",
-            "umur": 32,
-            "nohp": "085225456312"
-          },
-          {
-            "id": 11,
-            "nama": "Rahman",
-            "alamat": "Wangon",
-            "umur": 30,
-            "nohp": "082215672345"
-          },
-          {
-            "id": 12,
-            "nama": "Dewa",
-            "alamat": "Purwokerto",
-            "umur": 34,
-            "nohp": "0817826782678"
-          },
-          {
-            "id": 13,
-            "nama": "Monika",
-            "alamat": "Ajibarang",
-            "umur": 20,
-            "nohp": "081345678276"
-          },
-          {
-            "id": 14,
-            "nama": "Yana Dewi",
-            "alamat": "Purbalingga",
-            "umur": 27,
-            "nohp": "08292892022"
-          },
-          {
-            "id": 15,
-            "nama": "Agus",
-            "alamat": "Cilacap",
-            "umur": 37,
-            "nohp": "08292892022"
-          },
-          {
-            "id": 16,
-            "nama": "Susanto",
-            "alamat": "Banyumas",
-            "umur": 33,
-            "nohp": "08292892022"
-          },
-          {
-            "id": 17,
-            "nama": "Yuliana",
-            "alamat": "Purwokerto",
-            "umur": 22,
-            "nohp": "08292892022"
-          },
-          {
-            "id": 18,
-            "nama": "Setya",
-            "alamat": "Purbalingga",
-            "umur": 24,
-            "nohp": "08292892022"
-          },
-          {
-            "id": 19,
-            "nama": "Fajar",
-            "alamat": "Kebumen",
-            "umur": 40,
-            "nohp": "08292892022"
-          },
-          {
-            "id": 20,
-            "nama": "Putri",
-            "alamat": "Klaten",
-            "umur": 23,
-            "nohp": "08292892022"
-          }
-    ]
+	"info": {
+		"_postman_id": "a65e3e5e-724a-4a4c-90cb-ce38813d25ae",
+		"name": "Backend For Frontend Programmer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/icd_nine_types?page=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"icd_nine_types"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get All",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/icd_nine_types?icd_nines_name=fff&page=1&size=2",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"icd_nine_types"
+							],
+							"query": [
+								{
+									"key": "icd_nines_name",
+									"value": "fff"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "size",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "http://localhost:8081"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "410"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"19a-h9D6mrOf/p9AwoZMLfaonu4sNxs\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 26 Jan 2021 08:55:41 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"totalItems\": 5,\n    \"icd_nine_types\": [\n        {\n            \"id\": 50,\n            \"icd_nines_name\": \"aaafff\",\n            \"icd_nines_code\": \"aaafff\",\n            \"icd_nines_type\": \"aaafff\",\n            \"createdAt\": \"2021-01-14T03:15:02.000Z\",\n            \"updatedAt\": \"2021-01-14T03:15:02.000Z\"\n        },\n        {\n            \"id\": 51,\n            \"icd_nines_name\": \"aaafffasda\",\n            \"icd_nines_code\": \"aaafffasda\",\n            \"icd_nines_type\": \"aaafffasda\",\n            \"createdAt\": \"2021-01-14T03:15:07.000Z\",\n            \"updatedAt\": \"2021-01-14T03:15:07.000Z\"\n        }\n    ],\n    \"totalPages\": 3,\n    \"currentPage\": 1\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Row",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/icd_nine_types/54",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"icd_nine_types",
+						"54"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Row",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/icd_nine_types/54",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"icd_nine_types",
+								"54"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "http://localhost:8081"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "158"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"9e-Z6uzlpvJTFuKYkwcQ+C7/hBXenY\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 26 Jan 2021 04:43:00 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 54,\n    \"icd_nines_name\": \"bbbb\",\n    \"icd_nines_code\": \"bbb\",\n    \"icd_nines_type\": \"bbbb\",\n    \"createdAt\": \"2021-01-26T04:35:09.000Z\",\n    \"updatedAt\": \"2021-01-26T04:35:09.000Z\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/icd_nine_types/47",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"icd_nine_types",
+						"47"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Delete",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/icd_nine_types/47",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"icd_nine_types",
+								"47"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "http://localhost:8081"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "54"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"36-GIGlI2DHCRg7gvoJZpT668KNo3k\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 26 Jan 2021 04:42:28 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"ICD_nine_types was deleted successfully!\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/icd_nine_types/35",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"icd_nine_types",
+						"35"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Update",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "id",
+									"value": "35",
+									"type": "text"
+								},
+								{
+									"key": "icd_nines_name",
+									"value": "update data example",
+									"type": "text"
+								},
+								{
+									"key": "icd_nines_code",
+									"value": "update data example",
+									"type": "text"
+								},
+								{
+									"key": "icd_nines_type",
+									"value": "update data example",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:8080/api/icd_nine_types/35",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"icd_nine_types",
+								"35"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "http://localhost:8081"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "54"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"36-PG13j/HYp1RfKghVKKeRdjVYYUM\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 26 Jan 2021 04:41:11 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"ICD_nine_types was updated successfully.\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "icd_nines_name",
+							"value": "create data",
+							"type": "text"
+						},
+						{
+							"key": "icd_nines_code",
+							"value": "create data",
+							"type": "text"
+						},
+						{
+							"key": "icd_nines_type",
+							"value": "create data",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/api/icd_nine_types",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"icd_nine_types"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Create",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "icd_nines_name",
+									"value": "create data",
+									"type": "text"
+								},
+								{
+									"key": "icd_nines_code",
+									"value": "create data",
+									"type": "text"
+								},
+								{
+									"key": "icd_nines_type",
+									"value": "create data",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:8080/api/icd_nine_types",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"icd_nine_types"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "http://localhost:8081"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "180"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"b4-Rh2A9R8Vv9De22g4S/C1iyRBjMA\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 26 Jan 2021 04:38:47 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 55,\n    \"icd_nines_name\": \"create data\",\n    \"icd_nines_code\": \"create data\",\n    \"icd_nines_type\": \"create data\",\n    \"updatedAt\": \"2021-01-26T04:38:47.903Z\",\n    \"createdAt\": \"2021-01-26T04:38:47.903Z\"\n}"
+				}
+			]
+		}
+	]
 }
