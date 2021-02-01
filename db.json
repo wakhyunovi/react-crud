@@ -1,0 +1,144 @@
+{
+    "users" : [
+        {
+            "id": 1,
+            "nama": "Wakhyu Novi S A",
+            "alamat": "Bumiayu",
+            "umur": 22,
+            "nohp": "085672563785"
+          },
+          {
+            "id": 2,
+            "nama": "Florensky Gabriel Irawan",
+            "alamat": "Jatilawang",
+            "umur": 23,
+            "nohp": "085290381012"
+          },
+          {
+            "id": 3,
+            "nama": "Ghuyub Catlea Azalea",
+            "alamat": "Bumiayu",
+            "umur": 22,
+            "nohp": "08292892022"
+          },
+          {
+            "id": 4,
+            "nama": "Sabrina Uhtika Putri",
+            "alamat": "Jatilawang",
+            "umur": 23,
+            "nohp": "082928567907"
+          },
+          {
+            "id": 5,
+            "nama": "Deby Nofalia Fardiansari",
+            "alamat": "Jakarta",
+            "umur": 22,
+            "nohp": "082923092032"
+          },
+          {
+            "id": 6,
+            "nama": "Budiman",
+            "alamat": "Kuningan",
+            "umur": 26,
+            "nohp": "087928839322"
+          },
+          {
+            "id": 7,
+            "nama": "Muhamad Darwin",
+            "alamat": "Banyumas",
+            "umur": 28,
+            "nohp": "083048520220"
+          },
+          {
+            "id": 8,
+            "nama": "Ecan Kurniawan",
+            "alamat": "Cibinong",
+            "umur": 25,
+            "nohp": "089928910281"
+          },
+          {
+            "id": 9,
+            "nama": "Calvin Yon",
+            "alamat": "Bogor",
+            "umur": 35,
+            "nohp": "087762890292"
+          },
+          {
+            "id": 10,
+            "nama": "Arif",
+            "alamat": "Yogyakarta",
+            "umur": 32,
+            "nohp": "085225456312"
+          },
+          {
+            "id": 11,
+            "nama": "Rahman",
+            "alamat": "Wangon",
+            "umur": 30,
+            "nohp": "082215672345"
+          },
+          {
+            "id": 12,
+            "nama": "Dewa",
+            "alamat": "Purwokerto",
+            "umur": 34,
+            "nohp": "0817826782678"
+          },
+          {
+            "id": 13,
+            "nama": "Monika",
+            "alamat": "Ajibarang",
+            "umur": 20,
+            "nohp": "081345678276"
+          },
+          {
+            "id": 14,
+            "nama": "Yana Dewi",
+            "alamat": "Purbalingga",
+            "umur": 27,
+            "nohp": "08292892022"
+          },
+          {
+            "id": 15,
+            "nama": "Agus",
+            "alamat": "Cilacap",
+            "umur": 37,
+            "nohp": "08292892022"
+          },
+          {
+            "id": 16,
+            "nama": "Susanto",
+            "alamat": "Banyumas",
+            "umur": 33,
+            "nohp": "08292892022"
+          },
+          {
+            "id": 17,
+            "nama": "Yuliana",
+            "alamat": "Purwokerto",
+            "umur": 22,
+            "nohp": "08292892022"
+          },
+          {
+            "id": 18,
+            "nama": "Setya",
+            "alamat": "Purbalingga",
+            "umur": 24,
+            "nohp": "08292892022"
+          },
+          {
+            "id": 19,
+            "nama": "Fajar",
+            "alamat": "Kebumen",
+            "umur": 40,
+            "nohp": "08292892022"
+          },
+          {
+            "id": 20,
+            "nama": "Putri",
+            "alamat": "Klaten",
+            "umur": 23,
+            "nohp": "08292892022"
+          }
+    ]
+}
